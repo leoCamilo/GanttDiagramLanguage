@@ -12,6 +12,7 @@ begin
             dataIni :   {start date of the task}
             duracao :   {duration in days}
             nomeResp :  {people responsable for the task}
+            [percent :  {how much task is complete in percentage}]         -- optional, default value 0
         }
 
         ...
