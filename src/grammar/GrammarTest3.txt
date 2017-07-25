@@ -1,0 +1,11 @@
+begin
+    setInterval 10
+
+    createTheme trabalho {
+        createTask limpar {dataIni : 12/15/2015 duracao : 10 nomeResp : joao percent : 12}
+        createTask fazer {dataIni : 12/25/2015 duracao : 10 nomeResp : bruno}
+        createTask programar {dataIni : 01/04/2016 duracao : 10 nomeResp : roberto}
+        createTask escrever {dataIni : 01/14/2016 duracao : 10 nomeResp : gabi percent : 42}
+        createTask dizer {dataIni : 01/24/2016 duracao : 10 nomeResp : roberval}
+    }
+end

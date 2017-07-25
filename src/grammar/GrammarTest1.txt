@@ -1,0 +1,71 @@
+begin
+    createTheme trabalho {
+		createTask limpar {
+			dataIni : 12/25/2015
+			duracao : 3
+			nomeResp : joao
+			percent : 12
+		}
+
+		createTask fazer {
+			dataIni : 12/27/2015
+			duracao : 7
+			nomeResp : bruno
+		}
+
+		createTask programar {
+			dataIni : 12/28/2015
+			duracao : 10
+			nomeResp : roberto
+		}
+
+		createTask escrever {
+			dataIni : 01/02/2016
+			duracao : 2
+			nomeResp : gabi
+			percent : 42
+		}
+
+		createTask dizer {
+			dataIni : 01/06/2016
+			duracao : 10
+			nomeResp : roberval
+		}
+
+	}
+
+	createTheme escola {
+		createTask comer {
+			dataIni : 01/13/2016
+			duracao : 12
+			nomeResp : giralgi
+			percent : 31
+		}
+
+		createTask testar {
+			dataIni : 01/15/2016
+			duracao : 17
+			nomeResp : paulo
+			percent : 29
+		}
+
+		createTask rir {
+			dataIni : 01/17/2016
+			duracao : 20
+			nomeResp : jefferson
+		}
+
+		createTask cantar {
+			dataIni : 01/19/2016
+			duracao : 2
+			nomeResp : zidae
+		}
+
+		createTask entender {
+			dataIni : 01/25/2016
+			duracao : 8
+			nomeResp : tsumoto
+			percent : 5
+		}
+	}
+end

@@ -1,0 +1,32 @@
+begin
+    setInterval 10
+
+    createTheme trabalho {
+        createTask limpar {dataIni : 12/25/2015 duracao : 10 nomeResp : joao percent : 12}
+        createTask fazer {dataIni : 12/27/2015 duracao : 7 nomeResp : bruno}
+        createTask programar {dataIni : 12/28/2015 duracao : 10 nomeResp : roberto}
+        createTask escrever {dataIni : 01/02/2016 duracao : 2 nomeResp : gabi percent : 42}
+        createTask dizer {dataIni : 01/06/2016 duracao : 10 nomeResp : roberval}
+    }
+
+    createTheme escola {
+        createTask comer {dataIni : 01/13/2016 duracao : 12 nomeResp : giralgi percent : 31}
+        createTask testar {dataIni : 01/15/2016 duracao : 17 nomeResp : paulo percent : 29}
+        createTask rir {dataIni : 01/17/2016 duracao : 20 nomeResp : jefferson}
+        createTask cantar {dataIni : 01/19/2016 duracao : 2 nomeResp : zidae}
+        createTask entender {dataIni : 01/25/2016 duracao : 8 nomeResp : tsumoto percent : 5}
+    }
+
+    createTheme escola {
+        createTask vender {dataIni : 02/01/2016 duracao : 12 nomeResp : karina percent : 18}
+        createTask dizer {dataIni : 02/04/2016 duracao : 17 nomeResp : fernando percent : 29}
+        createTask passar {dataIni : 02/17/2016 duracao : 20 nomeResp : arthu}
+        createTask fechar {dataIni : 02/19/2016 duracao : 20 nomeResp : terezinha}
+        createTask abrir {dataIni : 02/25/2016 duracao : 8 nomeResp : osorio percent : 70}
+        createTask tentar {dataIni : 03/13/2016 duracao : 12 nomeResp : maria percent : 95}
+        createTask desapegar {dataIni : 03/15/2016 duracao : 17 nomeResp : giane percent : 2}
+        createTask gargalhar {dataIni : 03/17/2016 duracao : 20 nomeResp : leticia}
+        createTask ganhar {dataIni : 03/19/2016 duracao : 9 nomeResp : jamily}
+        createTask perder {dataIni : 03/25/2016 duracao : 8 nomeResp : yasmin percent : 25}
+    }
+end
